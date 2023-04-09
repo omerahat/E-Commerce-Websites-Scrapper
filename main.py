@@ -4,6 +4,7 @@ from datetime import datetime
 import json
 import time
 
+# github: @omerahat
 
 def get_data_from_amazon(url):
     header = {
