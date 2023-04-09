@@ -37,7 +37,7 @@ To use the web scraper, simply pass the URL of the product page you want to scra
 
 Here's an example of how to use the scraper:
 ```
-from amazon_scraper import get_data_from_amazon
+from scraper import get_data_from_amazon
 
 url = "https://www.amazon.com/Apple-MU8F2AM-A-Pencil-Generation/dp/B07K1WWBJK/"
 product_data = get_data_from_amazon(url)
