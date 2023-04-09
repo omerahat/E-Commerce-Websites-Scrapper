@@ -45,7 +45,8 @@ product_data = get_data_from_amazon(url)
 print(product_data)
 ```
 ##### Output:
+```
 {"platform": "amazon", "time": "2023-04-09 20:41:29", "title": "Apple Pencil (2nd Generation)", "price": "$112.89", "review": 75343, "rating": "4.8"}
-
+```
 ## Disclaimer
 Please note that web scraping can potentially violate the terms of service of the websites being scraped. Use this script at your own risk and ensure that you comply with all relevant laws and regulations.
