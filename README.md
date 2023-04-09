@@ -14,7 +14,7 @@ This Python script allows you to extract data from e-commerce websites by provid
 
 - Teknosa
 
-- Vatan
+- Vatan Bilgisayar
 
 ## Dependencies
 
