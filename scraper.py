@@ -5,14 +5,15 @@ import json
 import time
 
 # github: @omerahat
-
-def get_data_from_amazon(url):
-    header = {
+header = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
     'Referer': 'https://www.google.com/',
     'Accept-Encoding': 'gzip, deflate, br',
     'Accept-Language': 'en-US,en;q=0.9'
 }
+
+
+def get_data_from_amazon(url):
     response=requests.get(url,headers=header)
     soup=bs(response.content,"html.parser")
     
@@ -45,12 +46,7 @@ print(get_data_from_amazon(url))
 
 
 def get_data_from_ebay(url):
-    header = {
-    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
-    'Referer': 'https://www.google.com/',
-    'Accept-Encoding': 'gzip, deflate, br',
-    'Accept-Language': 'en-US,en;q=0.9'
-}
+
     response=requests.get(url,headers=header)
     soup=bs(response.content,"html.parser")
     
@@ -75,12 +71,6 @@ print(get_data_from_ebay(url))
 
 
 def get_data_from_hepsiburada(url):
-    header = {
-    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
-    'Referer': 'https://www.google.com/',
-    'Accept-Encoding': 'gzip, deflate, br',
-    'Accept-Language': 'en-US,en;q=0.9'
-}
     response=requests.get(url,headers=header)
     soup=bs(response.content,"html.parser")
     
@@ -112,12 +102,7 @@ print(get_data_from_hepsiburada(url))
 
 
 def get_data_from_trendyol(url):
-    header = {
-    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
-    'Referer': 'https://www.google.com/',
-    'Accept-Encoding': 'gzip, deflate, br',
-    'Accept-Language': 'en-US,en;q=0.9'
-}
+
     response=requests.get(url,headers=header)
     soup=bs(response.content,"html.parser")
     
@@ -146,12 +131,7 @@ print(get_data_from_trendyol(url))
 
 
 def get_data_from_teknosa(url):
-    header = {
-    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
-    'Referer': 'https://www.google.com/',
-    'Accept-Encoding': 'gzip, deflate, br',
-    'Accept-Language': 'en-US,en;q=0.9'
-}
+
     response=requests.get(url,headers=header)
     soup=bs(response.content,"html.parser")
     
@@ -178,12 +158,7 @@ print(get_data_from_teknosa(url))
 
 
 def get_data_from_vatan(url):
-    header = {
-    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
-    'Referer': 'https://www.google.com/',
-    'Accept-Encoding': 'gzip, deflate, br',
-    'Accept-Language': 'en-US,en;q=0.9'
-}
+
     response=requests.get(url,headers=header)
     soup=bs(response.content,"html.parser")
     
