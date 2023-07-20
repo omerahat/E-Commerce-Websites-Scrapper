@@ -20,7 +20,7 @@ This Python script allows you to extract data from e-commerce websites by provid
 
 This script uses the following dependencies:
 
-- requests
+- request
 - BeautifulSoup
 - datetime
 - json
