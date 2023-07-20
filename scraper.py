@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup as bs
 from datetime import datetime
 import json
-import time
+
 
 # github: @omerahat
 header = {
